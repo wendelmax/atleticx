@@ -1,6 +1,6 @@
 # Documentacao do produto
 
-Este diretorio consolida a idealizacao do sistema mobile e web para gamificacao em artes marciais.
+Este diretorio consolida a idealizacao do AtleticX, plataforma mobile e web para gestao esportiva e gamificacao.
 
 ## Arquivos
 

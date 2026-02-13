@@ -87,7 +87,7 @@ Criar uma plataforma digital com app mobile e painel web para:
 ### 3.10 Auditoria e compliance
 
 - Trilha de auditoria para pontuacao e avaliacao.
-- Polticas LGPD, retencao e exclusao de dados.
+- Politicas LGPD, retencao e exclusao de dados.
 - Regras de moderacao de conteudo.
 
 ## 4. Fluxos de negocio principais
@@ -137,7 +137,7 @@ sequenceDiagram
 
 ## 5. Modelo de pontuacao e progresso
 
-## 5.1 Exemplo de pesos para percentual de faixa
+### 5.1 Exemplo de pesos para percentual de faixa
 
 - Tecnica: 40%
 - Condicionamento fisico: 20%
@@ -145,7 +145,7 @@ sequenceDiagram
 - Conteudo e teoria: 10%
 - Conduta e valores: 10%
 
-## 5.2 Regras recomendadas
+### 5.2 Regras recomendadas
 
 - Ranking separado por categoria.
 - Pontuacao com teto por periodo para evitar distorcao.

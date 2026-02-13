@@ -13,6 +13,7 @@ apps/mobile/.env
 
 .expo
 .expo-shared
+apps/mobile/dist
 android
 ios
 

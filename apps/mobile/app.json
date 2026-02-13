@@ -8,7 +8,8 @@
     "splash": { "resizeMode": "contain", "backgroundColor": "#0d1220" },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atleticx.app"
     },
     "android": {
       "adaptiveIcon": { "backgroundColor": "#0d1220" },
