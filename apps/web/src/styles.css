@@ -1,0 +1,72 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0c0f16;
+  color: #e8ecf2;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  background: #161b26;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #2a3246;
+}
+
+.grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+input,
+select,
+button {
+  border-radius: 8px;
+  border: 1px solid #3a455f;
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #1b2230;
+  color: #e8ecf2;
+}
+
+button {
+  background: #4f7cff;
+  border-color: #4f7cff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.tokenBox {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px solid #4f7cff;
+  border-radius: 8px;
+  background: #101d3f;
+}
+
+.status {
+  color: #9eb8ff;
+}

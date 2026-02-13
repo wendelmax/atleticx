@@ -1,0 +1,23 @@
+{
+  "name": "atleticx-platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "firebase/functions"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @atleticx/web",
+    "dev:mobile": "npm run start --workspace @atleticx/mobile",
+    "build:web": "npm run build --workspace @atleticx/web",
+    "lint:web": "npm run lint --workspace @atleticx/web",
+    "typecheck:web": "npm run typecheck --workspace @atleticx/web",
+    "deploy:rules": "firebase deploy --only firestore:rules,storage",
+    "deploy:functions": "firebase deploy --only functions",
+    "emulators": "firebase emulators:start"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
